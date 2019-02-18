@@ -1,7 +1,7 @@
 struct book {
         long ISBN-Nummer;
-        char Buchname[50];
-        char Buchautor;
+        string Buchtitel;
+        string Buchautor;
         short Anzahl;
         char Liste;
 };
@@ -11,10 +11,10 @@ struct book bookEtwas;                    //idk
 
 
 // Zugriff auf die Elemente
-book.ISBN-Nummer = "";
-strcpy(book.Buchname, "");
-strcpy(book.Buchautor, "");
-book.Anzahl = "";
-strcpy(book.Liste, "");
+bookEtwas.ISBN-Nummer = "";
+strcpy(bookEtwas.Buchname, "");
+strcpy(bookEtwas.Buchautor, "");
+bookEtwas.Anzahl = "";
+strcpy(bookEtwas.Liste, "");
 
 printf("Buchname: %s\n", book.Buchname);
