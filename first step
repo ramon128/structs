@@ -1,0 +1,20 @@
+struct book {
+        long ISBN-Nummer;
+        char Buchname[50];
+        char Buchautor;
+        short Anzahl;
+        char Liste;
+};
+
+//Variable der Struktur erstellen
+struct book bookEtwas;                    //idk
+
+
+// Zugriff auf die Elemente
+book.ISBN-Nummer = "";
+strcpy(book.Buchname, "");
+strcpy(book.Buchautor, "");
+book.Anzahl = "";
+strcpy(book.Liste, "");
+
+printf("Buchname: %s\n", book.Buchname);
